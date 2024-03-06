@@ -35,9 +35,10 @@ class Content extends StatelessWidget {
                       "Quiz App",
                       style: TextStyle(color: Colors.white, fontSize: 20),
                     ),
-                    ElevatedButton(
+                    ElevatedButton.icon(
                       onPressed: () => {},
-                      child: const Text("Start Quiz"),
+                      icon: const Icon(Icons.arrow_right_alt),
+                      label: const Text("Start Quiz"),
                     )
                   ]),
             )
