@@ -30,6 +30,7 @@ class Content extends StatelessWidget {
                     Image.asset(
                       "assets/images/quiz-logo.png",
                       width: 300,
+                      color: const Color.fromARGB(125, 255, 255, 255),
                     ),
                     const Text(
                       "Quiz App",
